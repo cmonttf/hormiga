@@ -30,9 +30,6 @@ Factor de evaporación de la feromona ($\alpha$).
 
 2. Programa
 
-<p stye="text-align: justify;">El código debe ser desarrollado usando una metodología de programación modular, es decir,
-debe haber un uso de funciones y/o métodos que implementen de forma genérica los principales
-operadores, los cuales, serán usados en el programa principal.
-El objetivo de esta implementación es poder crear una biblioteca de funciones y/o métodos que
-puedan ser re-utilizados en cualquier otro programa que se pueda implementar en el futuro con
-el correspondiente ahorro en tiempo y lineas de código.</p>
+<p stye="text-align: justify;">El código debe ser desarrollado usando una metodología de programación modular, es decir, debe haber un uso de funciones y/o métodos que implementen de forma genérica los principales operadores, los cuales, serán usados en el programa principal.
+
+El objetivo de esta implementación es poder crear una biblioteca de funciones y/o métodos que puedan ser re-utilizados en cualquier otro programa que se pueda implementar en el futuro con el correspondiente ahorro en tiempo y lineas de código.</p>
