@@ -64,3 +64,7 @@ solucionMejorIteracion = 0
 print('Solución inicial y a la vez mejor solución:\n', solucionMejor, '\ntamaño:', solucionMejor.shape, '\ntipo:', type(solucionMejor))
 print('Costo de la solución inicial y a la vez mejor solución:', solucionMejorCosto)
 print('Iteración donde se encontró la mejor solución:', solucionMejorIteracion)
+
+Tij0 = 1/(numVariables*solucionMejorCosto)
+matrizFeromona = np.full_like(matrizDistancia,fill_value=Tij0,dtype=float)
+print('Matriz de Feromona:\n',matrizFeromona, '\ntamaño:', matrizFeromona.shape, '\ntipo:', type(matrizFeromona))
